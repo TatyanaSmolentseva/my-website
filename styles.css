@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Стилизация заголовков */
+h1, h2, h3 {
+    color: #800000; /* Темно-красный цвет для заголовков */
+    text-transform: uppercase;
+    font-family: 'Blackletter', cursive; /* Шрифт в готическом стиле */
+}
+
+/* Ссылки */
+a {
+    color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стилизация фона и контейнера для основного контента */
+main {
+    background-image: url('gothic-pattern.jpg'); /* Узор средневековой архитектуры */
+    background-size: cover;
+    padding: 20px;
+    border: 2px solid #800000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Стилизация изображений */
+img {
+    border: 2px solid #800000;
+}
+
+/* Стилизация кнопок */
+.button {
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #600000; /* Чуть более темный оттенок при наведении */
+}
